@@ -13,6 +13,7 @@ In tandem with that I need some clear examples of the DSL. The feedback showed m
 So the first step of this week was working to create a step by step guide of 1 what I was making and 2 how I was going to do it. In advance I apologize for the format of these and specifically how the typing ends up looking. I have dyslexia and it can make some of my sentences really impossible to understand (I swap word order alot). Feel free to comment on those in reviews so I can fix them. 
 
 ### Research: 
+Firstly Here are some documents that I am storing here in case I use them, but I dont plan to. 
 
 ## Questions
 
