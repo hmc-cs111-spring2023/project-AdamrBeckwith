@@ -13,7 +13,15 @@ In tandem with that I need some clear examples of the DSL. The feedback showed m
 So the first step of this week was working to create a step by step guide of 1 what I was making and 2 how I was going to do it. In advance I apologize for the format of these and specifically how the typing ends up looking. I have dyslexia and it can make some of my sentences really impossible to understand (I swap word order alot). Feel free to comment on those in reviews so I can fix them. 
 
 ### Research: 
-Firstly Here are some documents that I am storing here in case I use them, but I dont plan to. 
+Firstly Here are some documents that  I might return to in my implemntation of the project
+ - [Create an Exectuable Command Prompt Script](https://stackoverflow.com/questions/13975733/how-to-create-an-executable-command-prompt-script)
+ - [Executing Shell Commands in Python](https://stackabuse.com/executing-shell-commands-with-python/)
+ - [Convert Python To Executable](https://towardsdatascience.com/how-to-easily-convert-a-python-script-to-an-executable-file-exe-4966e253c7e9)
+ - [Scalapy -- Running Python packages in Scala](https://github.com/scalapy/scalapy)
+ - [Turning and Exporting a Scala Project as One single .jar file](https://github.com/sbt/sbt-onejar)
+ - [GUI programming in Scala](https://otfried.org/scala/gui.html)
+
+
 
 ## Questions
 
