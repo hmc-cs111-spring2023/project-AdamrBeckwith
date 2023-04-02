@@ -2,12 +2,11 @@
 
 ## Last week's critique
 
-**TODO:** Fill in this part with a summary and reflection on the critique you received for
-last week's work. Answer questions such as:  How, specifically, did the feedback help
-improve the project? Did the feedback point out or offer something you hadn't considered?
-Did it help you make a design decision? Was it helpful in addressing the most pressing
-issues in your project? How will you incorporate the feedback into your work? Will you
-change something about the design, implementation, or evaluation as a result?
+It was very nice being able to talk with my tablemate on monday. I feel like we both have similar goals in the project. Although the actually feedback on my project was minimal, there we key insights I learned from our interaction. 
+
+First off, I definitely realized how badly defined my project was. Although I knew what I *wanted* I didn't really have any logistics figured out. Sure, a gui that a user can interact with is easy to say but not easily done. I also realized we both probably over commited to a project ie made it more complicated then can be done in the time required. So going into this designing section I want to clearly define these issues. 
+
+In tandem with that I need some clear examples of the DSL. The feedback showed me that how the dsl will work also needs some defining. Is it something that rolls singular events? Or something that creates graphs? That is a question I need to answer. 
 
 ## Description
 
