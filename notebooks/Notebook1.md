@@ -21,7 +21,9 @@ Firstly Here are some documents that  I might return to in my implemntation of t
  - [Turning and Exporting a Scala Project as One single .jar file](https://github.com/sbt/sbt-onejar)
  - [GUI programming in Scala](https://otfried.org/scala/gui.html)
 
+From my research the actual structure of my program, I chose to do the following: The DSL will be a External Domain language, and implemented in scala. While I did a internal one for the previous project, I will have some guidence from others that did external while I set that up. Then, the external DSL will be set into a simple GUI following the tutorial above. Im not going to focus on prettyness or anything like that, I imagine this will be simple and I will focus mostly on the implementation of the language. 
 
+The language will have two overarcing setups. 1 build a roll roll {description} and then enacting stats on that roll. 
 
 ## Questions
 
