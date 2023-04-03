@@ -17,7 +17,11 @@ exciting milestones, preliminary results, etc. Feel free to include images
 (e.g., a sketch of the design or a screenshot of a running program), links to
 code, and any other resources that you think will help clearly convey your
 design process.
+-- REMOVE 
+Some reps to look at https://github.com/hmc-cs111-spring2023/hw-7-piconot-rydermitchell-hw7/blob/main/build.md
+https://github.com/hmc-cs111-spring2023/hw-7-sample-solution/tree/main/src/main/scala/piconot/external
 
+--
 ## Questions
 
 **What is the most pressing issue for your project? What design decision do
