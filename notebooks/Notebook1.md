@@ -21,9 +21,24 @@ Firstly Here are some documents that  I might return to in my implemntation of t
  - [Turning and Exporting a Scala Project as One single .jar file](https://github.com/sbt/sbt-onejar)
  - [GUI programming in Scala](https://otfried.org/scala/gui.html)
 
-From my research the actual structure of my program, I chose to do the following: The DSL will be a External Domain language, and implemented in scala. While I did a internal one for the previous project, I will have some guidence from others that did external while I set that up. Then, the external DSL will be set into a simple GUI following the tutorial above. Im not going to focus on prettyness or anything like that, I imagine this will be simple and I will focus mostly on the implementation of the language. 
 
-The language will have two overarcing setups. 1 build a roll roll {description} and then enacting stats on that roll. 
+### Thoughts: 
+
+From my research the actual structure of my program, I chose to do the following: The DSL will be a External Domain language, and implemented in scala. While I did a internal one for the previous project, I will have some guidence from others that did external while I set that up. Then, the external DSL will be set into a simple GUI following the tutorial above. Im not going to focus on prettyness or anything like that, I imagine this will be simple and I will focus mostly on the implementation of the language. The gui will either allow directly editing a text document and a run button, or to select a already written text file. 
+
+The language will have two overarcing setups. 1 build a roll roll {description} and then enacting stats on that roll. Rolls can be reused by a name and can be nested if possible. See design for more. The creation of stats would use the Scalapy package to grab some python graphing packages. There might be some scala graphing packages tho, so Ill keep an eye out for that. 
+
+Lastly, I will convert the scala to a single jar file as above. So the final checklist is 
+- Make the simplest working version of the DSL 
+- Make a Simple *working* GUI
+- Set up Jar adaptation 
+- Add Stats to DSL
+- Improve DSL 
+- Improve GUI 
+
+### Design :
+
+
 
 ## Questions
 
