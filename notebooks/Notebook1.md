@@ -38,6 +38,36 @@ Lastly, I will convert the scala to a single jar file as above. So the final che
 
 ### Design :
 
+This is a preliminary design but this is what I want people to be able to create and explore with the system. 
+Making a roll: (basically a function that outputs a number) 
+```
+roll alpha {
+
+1d6 + 7
+
+}
+```
+note: 1d6 evaluates to a roll object. 
+
+Making a check: (basically a fucntion that outputs a succes or failure -- maybe add allowance for multiple successes reported?) 
+```
+check beta {
+
+5d6 if >10 
+
+}
+```
+Making a stat: (output stats with various parameters) 
+```
+roll gamma {
+ alpha + 1d6
+}
+
+stat beta (parameters)
+stat gamma (parameters)
+```
+This still needs some refinement. I want to break away from coding conventions, but we know thats very difficult. 
+
 
 
 ## Questions
@@ -46,11 +76,20 @@ Lastly, I will convert the scala to a single jar file as above. So the final che
 you need to make, what implementation issue are you trying to solve, or how
 are you evaluating your design and implementation?**
 
+I feel much better about starting now. The most pressing issue is I have is I dont have experience with external implementations. Something my DSL relies on. Hopefully I can get guidence from the rest of the class on how that works. 
+I need to make the **big jump** from the *layout* and *construction* of a DSL to its actual design. I want to break away from the expectations of a traditional coding language and allow it to be relatively simple to write, especially since most applications will be simple. But the modularity and the recursiveness is defined well. 
+
 **What questions do you have for your critique partners? How can they best help
 you?**
+
+Does the structure make sense? Both the actual construction of the DSL (gui, scala etc) and the actual DSL design. Plus any name suggestions would be great! 
 
 **How much time did you spend on the project this week? If you're working in a
 team, how did you share the work?**
 
+Ahhhh I have no idea. Everything has been done in github but Ive been so busy and working on this during the cracks of freetime I have 
+
 **Compared to what you wrote in your contract about what you want to get out of this
 project, how did this week go?**
+
+It went ok. I feel like I made more progress then I expected and the research was very very helpful. Lets see how implementation goes. 
