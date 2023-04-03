@@ -57,6 +57,8 @@ check beta {
 
 }
 ```
+note: 5d6 evaluates to a list of 1d6's that are then each rolled by if and compared to 10 
+
 Making a stat: (output stats with various parameters) 
 ```
 roll gamma {
