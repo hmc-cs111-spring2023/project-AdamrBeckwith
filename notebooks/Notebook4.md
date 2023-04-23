@@ -2,21 +2,17 @@
 
 ## Last week's critique
 
-**TODO:** Fill in this part with a summary and reflection on the critique you received for
-last week's work. Answer questions such as:  How, specifically, did the feedback help
-improve the project? Did the feedback point out or offer something you hadn't considered?
-Did it help you make a design decision? Was it helpful in addressing the most pressing
-issues in your project? How will you incorporate the feedback into your work? Will you
-change something about the design, implementation, or evaluation as a result?
+Last week I got alot of discussion about dealing with generating stats. We talked about package options and how to connect it with the overall setup. We talked about looking into our old PL's Work in order to work about Expressions. 
 
 ## Description
 
-**TODO:** Fill in this part with information about your work this week:
-important design decisions, changes to previous decisions, open questions,
-exciting milestones, preliminary results, etc. Feel free to include images
-(e.g., a sketch of the design or a screenshot of a running program), links to
-code, and any other resources that you think will help clearly convey your
-design process.
+This week I worked on getting *stat* setup. I started with seting up the code interpreter to grab the roll called *main* and print out stats for it. So currently the actual command *stat* is not implemented but run automatically on main. (very programmer of me).  
+
+The original goal was to use plotly and output bar graphs of the results. However that library did not work. So I looked for more library options in scala In fact I tried many of the ones listed in [this](https://analyticsindiamag.com/top-7-scala-libraries-for-data-visualisation/) article. The ones I didnt try had other reasons they didnt work. Such as not having bar graph options, or being overly complicated for the implementation I wanted. 
+
+As a result (and after asking for help from prof Ben) I went to an ascii implementation. Its very simple. It rolls main 1000 times, and takes that data and converts it to a little ascii bar graph (sideways since its easier to implement) 
+
+Goals going forward: The next thing I want to do is add custom dice sides and update the statistics to allow that successfully. 
 
 ## Questions
 
